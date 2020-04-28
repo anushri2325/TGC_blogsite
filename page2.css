@@ -1,0 +1,164 @@
+body{
+	/*background-image: url(https://wallpapercave.com/wp/wp4778489.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	font-family: 'Acme', sans-serif; 
+	background: url(https://us.123rf.com/450wm/ittoilmatarr/ittoilmatarr1704/ittoilmatarr170400003/76507733-3d-rendering-illustration-of-vintage-typewriter-paper-and-ceramic-cup-coffee-latte-art-on-the-pastel.jpg?ver=6);
+    background-repeat: no-repeat;
+	background-size: cover;
+	transition: all .5 ease;
+}
+.sidebar{
+	position: fixed;
+	left: -250px;
+	width: 250px;
+	height: 100%;
+	background: #E4A199 ;
+	transition: all .5 ease;
+}
+
+.sidebar header{
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	background: #b39eb5;
+	user-select: none;
+}
+
+.sidebar ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: border-box;
+	/*border-top: 1px solid #FFB6C1;
+	border-bottom: 1px solid #FFB6C1;*/
+	transition: .4s
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li:hover a{
+	padding-left: 50px;
+}
+
+.sidebar ul a 1{
+	margin-right: 16px;
+}
+
+#check{
+	display: none;
+}
+
+label #btn,label #cancel{
+	position: absolute;
+	cursor: pointer;
+	background: #F4C2C2;
+	border-radius: 3px;
+}
+
+label #btn{
+	left: 40px;
+	top: 25px;
+	font-size: 35px;
+	color: white;
+	padding: 6px 12px;
+	transition: all .5;
+}
+
+label #cancel{
+	z-index: 1111;
+	left: -195px;
+	top: 17px;
+	font-size: 30px;
+	color: #0a5275;
+	padding: 4px 9px;
+	transition: all .5 ease;
+}
+
+#check:checked ~ .sidebar{
+	left: 0;
+}
+
+#check:checked ~ label #btn{
+	left: 250px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+	left: 195px;
+	
+}
+
+.form{
+	width: 85%;
+	max-width: 600px;
+	background: #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+}
+
+.form h1{
+	margin-top: 0;
+}
+
+.txtb{
+	border:1px solid #F4C2C2;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+
+.txtb label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.txtb input,.txtb textarea{
+	width: 100%;
+	border:none;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+
+
+/*GLOW EFFECT BUTTON*/
+
+.sub{
+	font-size: 24px;
+	padding: 15px 30px;
+	display: inline-block;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.sub:hover{
+	background: #ff6ec7;
+	color: #255789;
+	box-shadow: 0 0 10px #ff6ec7,0 0 40px #ff6ec7,0 0 80px #ff6ec7;
+	
+
+}

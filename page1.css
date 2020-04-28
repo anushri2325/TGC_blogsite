@@ -1,0 +1,89 @@
+.container{
+	width: 100%;
+}
+.logo{
+	float: left;
+	height: 70px;
+	padding: 10px 0;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	/*margin: 0 35px;*/
+	padding-top: 25px;
+	position: relative;
+	font-family: 'Girassol', cursive;
+	font-size: 15px; 
+}
+header{
+	background: #DA70D6;
+}
+nav ul>li>a{
+	color: white;
+}
+
+.yes{
+	float: left;
+	padding-right: 250px;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color: #301934;
+}
+
+nav a:hover :: before{
+       width: 100%;
+}
+
+.jumbotron{
+	border: 5px ;
+	padding: 5px;
+	max-width:900px;
+	width: 80%;
+	margin: 2px auto;
+	font-family: 'Girassol', cursive;
+	color: #ff5e6c;
+	background-color:#FFDAB9; 
+}
+
+.quote{
+	border-left: 5px solid #ff5e6c;
+	padding-left: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-family: 'Bangers', cursive;
+	font-size: 15px;
+}
+.post{
+	border: 20px solid #ff5e6c;
+	padding: 20px;
+	max-width:700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: 'Abril Fatface', cursive;
+}
+hr{
+    color: #ff5e6c; 
+}
+body{
+	background-image: url(https://thumbs.dreamstime.com/t/blurred-abstract-light-pink-color-background-space-design-elements-blurred-pink-abstract-light-background-126018943.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.pic{
+	height: 600px;
+}
